@@ -12,3 +12,13 @@
   content-visibility: visible;
   opacity: 1;
 }
+.contact_btn:focus,
+.contact_btn:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 0.7em transparent;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #9c5cec;
+  }
+}
