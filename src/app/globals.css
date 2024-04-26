@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
+* {
+  scroll-behavior: smooth !important;
+}
+.drop_down {
+  content-visibility: hidden;
+  opacity: 0;
+}
+.nav_link:hover .drop_down {
+  content-visibility: visible;
+  opacity: 1;
+}

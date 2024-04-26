@@ -1,7 +1,13 @@
 import NavBar from "@/components/NavBar";
 import OurHome from "@/components/OurHome";
+import OurProcess from "@/components/OurProcess";
 import OurTrusted from "@/components/OurTrusted";
+import WhatWeDo from "@/components/WhatWeDo";
+import WhoWeAre from "@/components/WhoWeAre";
+import Help from "@/components/Help";
 import { Poppins } from "next/font/google";
+import NextStep from "@/components/NextStep";
+import Footer from "@/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,6 +20,12 @@ export default function Home() {
       <NavBar />
       <OurHome />
       <OurTrusted />
+      <WhoWeAre />
+      <WhatWeDo />
+      <OurProcess />
+      <Help />
+      <NextStep />
+      <Footer />
     </main>
   );
 }

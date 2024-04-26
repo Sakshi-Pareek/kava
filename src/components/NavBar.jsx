@@ -31,36 +31,36 @@ export default function NavBar() {
           <Link
             href={"/"}
             onClick={() => setShow(!show)}
-            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear "
+            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear"
           >
             Home
           </Link>
           <Link
-            href={"app"}
+            href={"/ourapps"}
             onClick={() => setShow(!show)}
-            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative"
+            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative nav_link"
           >
             Apps <Updownarrow />
             <Dropdown />
           </Link>
           <Link
             onClick={() => setShow(!show)}
-            href={"solutions"}
-            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative"
+            href={"/solution"}
+            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative nav_link"
           >
             Solutions <Updownarrow />
             <Dropdown />
           </Link>
           <Link
             onClick={() => setShow(!show)}
-            href={"services"}
-            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative"
+            href={"/ourservice"}
+            className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear flex items-center gap-2 group relative nav_link"
           >
             Services <Updownarrow />
             <Dropdown />
           </Link>
           <Link
-            href={"contact"}
+            href={"#contact"}
             onClick={() => setShow(!show)}
             className="text-textsm font-medium text-black01 leading-[135%] hover:text-textblue duration-300 ease-linear"
           >

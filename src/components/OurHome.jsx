@@ -5,7 +5,7 @@ import { Arrow } from "./Icon";
 export default function OurHome() {
   return (
     <>
-      <div className="max-w-[1780px] mx-auto bg-bgpink xl:rounded-radiusmd lg:pt-10 2xl:pb-0 lg:pb-10 py-12 xl:mt-5">
+      <div className="max-w-[1780px] mx-auto bg-bgpink xl:rounded-radiusmd lg:pt-10 2xl:pb-0 lg:pb-10 sm:py-12 py-10 xl:mt-5" id="home">
         <div className="container 2xl:max-w-[1460px] lg:max-w-[1202px] px-3 2xl:ml-auto 2xl:mr-10 mx-auto">
           <div className="flex flex-wrap-reverse items-center max-lg:gap-5">
             <div className="lg:w-[48%] max-lg:flex flex-col justify-center items-center">
